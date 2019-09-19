@@ -77,7 +77,7 @@ def plugin_main( image, drawable, visible ):
 
   tempdrawable = pdb.gimp_image_get_active_layer(tempimage)
   
-  tempfilename = os.path.join(tempfile.gettempdir(), "ShellOutTempFile.tiff" )
+  tempfilename = os.path.join(tempfile.gettempdir(), "ShellOutTempFile.tif" )
   
 
   # !!! Note no run-mode first parameter, and user entered filename is empty string
